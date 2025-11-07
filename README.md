@@ -6,7 +6,7 @@ This project leverages **data-driven techniques** to uncover the hidden patterns
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 
 The dataset represents a comprehensive record of students from a higher education institution — including demographics, socioeconomic background, academic performance, and enrollment behavior.
 
@@ -54,7 +54,7 @@ The primary objective is to **predict student dropout** using machine learning, 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Tools / Libraries |
 |-----------|-------------------|
@@ -68,7 +68,7 @@ The primary objective is to **predict student dropout** using machine learning, 
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 1. **Clone the repository**
    ```bash
@@ -96,7 +96,7 @@ The primary objective is to **predict student dropout** using machine learning, 
 
 ---
 
-## 📊 Expected Outcomes
+## Expected Outcomes
 
 * Accurate classification of students as:
 
@@ -107,7 +107,48 @@ The primary objective is to **predict student dropout** using machine learning, 
 
 ---
 
-## 🧠 Future Enhancements
+## Model Performance
+
+**Best Model:** `LogisticRegression`  
+**Performance Metrics:**
+```python
+{'accuracy': 0.9201101928374655, 'precision': 0.9207543940014337, 'f1': 0.9193411475853628}
+```
+
+
+---
+
+## Tableau Visualizations
+
+1. Dropout Distribution by Course
+
+<img width="1440" height="608" alt="image" src="https://github.com/user-attachments/assets/613520da-2a40-45cc-81d8-2748eaef95f5" />
+
+
+2. Dropout Distribution by Gender
+
+<img width="1440" height="608" alt="image" src="https://github.com/user-attachments/assets/ad63bbb9-9149-4312-958a-f440616ccd24" />
+
+3. Dropout Distribution by Age
+
+<img width="1440" height="608" alt="image" src="https://github.com/user-attachments/assets/94d597cd-e97e-4ef3-bba4-4809fd624669" />
+
+4. Socioeconomic Impact Analysis	
+
+<img width="1440" height="608" alt="image" src="https://github.com/user-attachments/assets/30e06432-31fe-4100-a8aa-49c58d900cec" />
+
+<img width="1440" height="608" alt="image" src="https://github.com/user-attachments/assets/a9149c96-ef6a-4d64-b46f-2a1a5390c27f" />
+
+
+---
+
+## Streamlit App
+
+<img width="1447" height="780" alt="image" src="https://github.com/user-attachments/assets/7833a485-960e-466b-a8c1-08a60aeea8c9" />
+
+<img width="1447" height="780" alt="image" src="https://github.com/user-attachments/assets/fda0dfa2-3eb6-4dd3-aeff-6b08e454f5cd" />
+
+## Future Enhancements
 
 * Incorporate deep learning models for improved accuracy.
 * Integrate explainable AI (SHAP, LIME) to interpret predictions.
