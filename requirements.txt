@@ -1,0 +1,10 @@
+streamlit
+duckdb
+apache-airflow
+datetime
+pandas
+matplotlib
+seaborn 
+jupyterlab
+structlog
+scikit-learn
