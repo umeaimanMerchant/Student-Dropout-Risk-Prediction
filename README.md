@@ -74,7 +74,7 @@ The primary objective is to **predict student dropout** using machine learning, 
    ```bash
    git clone https://github.com/yourusername/student-dropout-prediction.git
    cd student-dropout-prediction
-````
+    ````
 
 2. **Install dependencies**
 
